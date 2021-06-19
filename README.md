@@ -1,5 +1,5 @@
 # Leetcode
-My solutions to Leetcodes
+My python solutions to Leetcodes
 ## Category
 ### Binary search
 - 35 Search Insert Position
