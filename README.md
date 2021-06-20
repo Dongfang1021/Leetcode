@@ -1,7 +1,7 @@
 # Leetcode
 My python solutions to Leetcodes
 ## Category
-### Binary search
+### Binary search (Done 6/19/2021)
 - 35 Search Insert Position
 - 34 Find First and Last Position of Element in sorted Array
 - 704 binary search
@@ -10,8 +10,6 @@ My python solutions to Leetcodes
 - 81 Search in Rotated Sorted Array II
 - 153 Find Minimum in Rotated Sorted Array
 - 154 Find Minimum in Rotated Sorted Array II
-
-
 - 852 Peak index in a mountain Arragy
 - 69 sqrt(x)
 - 74 search a 2D matrix
@@ -48,15 +46,261 @@ My python solutions to Leetcodes
 - 5 Counting Sort
 >This program starts by creating a dictionary of key-value pairs that records the total count of each element of the original list. The minimum and maximum value of the list is also found. The program then loops through every integer between the min and max value(in order) and appends that number to the cutput list based on its count within the original list, then the output list will be extended by [3,3,3,3]. The output will be the sorted form of the original list as it consists of an ordered list of the numbers in the original lsit. this approach is linear time sorting algorithm that sorts in O(n+k) time, where n is the number of elements and k is the 
 ### Binary Tree Divide & Conquer
-### BST Iterator
+- 169 Majority element
+- 153 Find Minimum in Rotated Sorted Array
+- 154 Find Minimum in Rotated Sorted Array II
+- 912 Sort an array
+
+### Tree
+- 94 Binary tree inorder traversal
+- 144 Binary tree preorder traversal
+- 145 
+- 100
+- 572 subtree of another tree
+- 101 symmetric tree
+- 104 maximum depth of binary tree
+- 110 balanced tree
+- 111 minimum depth of binary tree
+- 965 univalued binary tree
+- 102 binary tree level order traversal
+- 107 binary tree level order traversal II
+- 429 N-ary Tree level order traversal
+### BST 
+- 98 Validate binary search tree
+- 530 minimum absolute difference in BST
+- 700 search in a binary search tree
+- 701 insert into a binary search tree
+- 230 kth smallest element in BST
+- 99 recover binary search tree
+- 108 convert sortted array to binary search tree
+- 501 find mode in binary search tree
+- 450 delete node in a BST (details)
+- 
 ### BFS
 
 ### DFS
--
+- 872 leaf-similar trees
+- 814 binary tree pruning
+- 669 Trim a binary search tree
+- 1325 Delete leaves with a Given value
+- 112 path sum
+- 113 path sum II
+- 437 path sum III
+- 129 sum root to leaf numbers
+- 257 binary tree path
+- 236 lowest common ancestor of a binary tree
+- 235 lowest common ancestor of a binary search tree
+- 297 serialize and deserialize binary tree
+- 449 serialize and deserialize BST
+- 508 most frequent subtree sum
+- 124 Binary Tree Maxium path sum
+- 543 Diameter of binary tree
+- 687 longest univalue path
+- 968 binary tree cameras
+- 337 House robber III
+- 979 distribute coins in binary tree
+- 
 ### Dynamic Programming
+- 70 climibing stairs
+- 746 min cost climbing stairs
+- 1137 N-th Tribonacci number
+- 303 range sum query - immutable
+- 1218 Largest arithmetic subsequence of given difference
+- 53 Maximum subarray
+- 121 Best time to buy and sell stock
+- 62 unique path
+- 63 Unique Path II
+- 64 Minimum path sum
+- 120 Triangle
+- 174 Dungeon Game
+- 931 Minimum Falling Path Sum
+- 1210 Minimum Moves to reach target with rotations
+- 85 maximal rectangle
+- 221 maximal square
+- 304 range sum query
+- 1277 Count Square submatrices with all ones
+- 198
+- 213 House Robber II
+- 309 Best time to Buy and sell stock with cooldown
+- 740 delete and earn
+- 790 domino and tromino tiling
+- 801 Minimum swaps to make sequences increasing
+- 279 perfect squares
+- 139 word break
+- 140 word break II
+- 818 Race Car
+- 300 Longest Increasing subsequence
+- 673 Number of longest increasing subsequence
+- 1048 longest string chain
+- 96 unique binary search trees
+- 1105 filling bookcase shelves
+- 131 Palindrome Partitioning
+- 89 Gray code
+- 72 edit distance
+- 10 regular expression matching
+- 44 wildcard matching
+- 97 interleaving string
+- 115 distinct subsequence
+- 583 Delete Operation for two strings
+- 712 Minimum ASCII delete sum for two strings
+- 1187 make array strictly increasing 
+- 1143 longest common subsequence
+- 1092 shortest common supersequence
+- 718 Maximum length of repeated subarray
+- 1139 largest 1-bordered square
+- 688 Knight Probability in Chessboard 
+- 576 Out of boundary paths
+- 935 Knight Dialer 
+- 322 Coin change
+- 377 combination sum IV
+- 416 partition equal subset sum
+- 494 Target sum
+- 1043 Partition Array for maximum sum
+- 1049 Last stone weight II
+- 1220 count vowels permutation
+- 1230 Toss strange coins
+- 1262 Greatest Sum Divisible by Three
+- 1269 Number of ways to stay in the same place after some steps
+- 813 Largest sum of Averages
+- 1278 Palindrome Partitioning III
+- 1335 Minimum Difficulty of a Job schedule
+- 410 split Array Largest Sum
+- 1233 Dice Roll simulation
+- 312 Burst Balloons
+- 644 strange printer
+- 1024 video stitching
+- 1039 minimum score triangulation of polygon
+- 1140 Stone Game II
+- 1130 Minimum cost tree from leaf values
+- 741 cherry pickup
+- 546 remove boxes
+- 1125 smallest sufficient team
+- 
 ### Heap
+- 1642 Furthest Building you can reach
+- 1094 car pooling
+- 778 swimming in Rising Water
+- 703 Kth largest element in a stream
+- 239 Sliding Window Maximum
+- 692 Top K Frequent words
+- Find median from data stream
 ### Union Find
 ### Trie
+- 1707 Maximum XOR with an element from array
+- 421 Maximum XOR of two Numbers in an array
+- 212 word search II
 ### List
 
-
+- 2 Add two Numbers
+- 445 Add Two Numbers II
+- 24 Swap Nodes in Pairs
+- 206 Reverse linked List
+- 141 Linked list cycle
+- 142 linked list cycle II
+- 23 Merge k sorted list
+- 21 Merge two sorted list
+- 147 Insertion sort list
+- 148 Sort list Medium 
+- 707 Design Linked List
+### Search(BFS/DFS/backtracking)
+#### iterative DFS
+- 17 letter combination of phone number
+- 39 combination sum
+- 40 combination sum II
+- 77 combinations
+- 784 letter case permutation
+- 943 Find the shortest superstring
+- 
+#### Backtracking
+- 10 regular expression matching
+- 17 letter combination of a phone number
+- 78 subsets
+- 90
+- 46 permutations
+- 47 permutations II
+- 784 letter case permutation
+- 943 Find the shortest superstring
+- 996 Number of squareful array
+- 301 remove invalid parentheses
+- 79 Word Search 
+- 22 Generate Paranthesses
+- 140 Workd Break II
+- 44 Wildcard Matching
+- 37 Sudoku Solver
+- 51 N-Queens
+- 52 N-Queens II
+- 489 Robot room cleaner
+- 93 restore ip address
+- 131 Palindrome partitioning
+- 241 Different ways to add paratheses
+- 282 Expression add operators
+- 842 Split Array into Fibonacci sequence
+- 
+#### BFS
+- 127 Word Ladder
+- 126 word ladder II
+- 752 open the lock
+- 818 race car
+- 542 O1 matrix
+- 675 cut off trees for golf event
+- 934 shortest bridge
+- 689 Partition to K equal sum subsets
+### Sliding window
+- 1703 Minimum Adjacent Swaps for k consecutive ones
+- 1695 Maximum Erasure Value 
+- 1687 Delivering Boxes from storage to ports
+- 1658 Minimum Operations to Reduce X to zero
+- 1610 Maximum number of visible points
+- 1525 Number of Good ways to split a string
+- 1477 Find two Non-overlapping sub-arrays each with target sum
+- 1456 Maximum Number of Vowels in a substring of given length
+- 1343 number of subarray of size k and average greater than or eaqual to threshold
+- 1208 Get Equal substrings within Budget
+- 1176 Diet Plan Performance
+- 1052 Grumpy bookstore owner
+### Graph
+- 133 clone graph
+- 138 copy list with random pointer
+- 200 Number of Islands
+- 547 Number of Provinces
+- 695 max area of island
+- 733 Flood fill
+- 827 Make A large Island
+- 1162 As far from land as possible
+- 841 keys and rooms
+- 1201 smallest string with swaps
+- 207 course schedule
+- 210 course schedule II
+- 802 Find eventual safe states
+- 399 Evaluate Division
+- 839 Similar string groups
+- 952 largest component size by common factor
+- 990 statisfiability of equality equations
+- 721 Accounts Merge
+- 737 sentence similarity II
+- 785 Is Graph bipartie
+- 886 possible bipartition
+- 1042 Flower Planting with No adjacent
+- 997 Find the town Judge
+- 433 minimum genetic mutation
+- 815 Bus Routes
+- 863 All nodes distance K in binary tree
+- 1129 shortest path with alternating colors
+- 1263 Minimum moves to move a box to their target location
+- 684 Redundant connection
+- 685 Redundant connection II
+- 1319 Number of Operations to make Network Connected
+- 743 Network Delay time
+- 787 cheapest flights within k stops
+- 882 reachable nodes in subdivided Graph
+- 924 Minimize malware spread
+- 1334 find the city with the smallest number of neighbors at a threshold distance
+- 847 shortest path visiting all nodes
+- 864 shortest path to get all keys
+- 1298 Maximum candies you can get from Boxes
+- 332 reconstruct itnerary
+- 1192 critical connections in a network
+- 943 find the shortest superstring
+- 980 unique paths III
+- 996 Number of squareful arrays
+- 959 regions cut by slashes
