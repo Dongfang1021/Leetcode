@@ -5,7 +5,7 @@ class Solution:
             sum = numbers[left] + numbers[right]
             if sum == target:
                 return [left + 1, right + 1]
-            elif sum < target:
+            if sum < target:
                 left += 1
             else:
                 right -= 1
