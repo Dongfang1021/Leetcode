@@ -9,12 +9,14 @@ class Solution:
         :type n: int
         :rtype: int
         """
-        left, right = 1, n
-        while left < right:
-            pivot = left + (right - left ) //2
+        left, right = 0, n - 1
+        while left <= right:
+            pivot = left + (right - left) //2
             if isBadVersion(pivot):
-                right = pivot
+                right = pivot - 1
             else:
                 left = pivot + 1
         return left
+        
+        
         
