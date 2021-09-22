@@ -7,3 +7,8 @@ class Solution:
             if 2*a in S:
                 return True
         return False
+        
+        
+    
+    
+        
