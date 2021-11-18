@@ -7,14 +7,10 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         left, right = 1, n
         while left <= right:
-            pivot = (left + right) // 2
-            if guess(pivot) == 1:
-                left = pivot + 1
-            elif guess(pivot) == -1:
+            pivot = (left + right) //2
+            if guess(pivot) == -1:
                 right = pivot - 1
-            else: 
+            elif guess(pivot) == 1:
+                left = pivot + 1
+            else:
                 return pivot
-        
-            
-        
-                
