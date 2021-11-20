@@ -6,12 +6,11 @@ class Solution:
         upper_bound = self.findBound(nums, target, False)
         return [lower_bound, upper_bound]
     
-    def findBound(sefl, nums: List[int], target: int, isFirst: bool) -> int:
+    def findBound(self, nums, target, isFirst):
         N = len(nums)
         begin, end = 0, N - 1
         while begin <= end:
             mid = int((begin + end)/2)
-            
             if nums[mid] == target:
                 if isFirst:
                     if mid == begin or nums[mid - 1] < target:
