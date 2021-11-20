@@ -19,7 +19,7 @@ class Solution:
             left = right
             right <<= 1
         while left <= right:
-            pivot = left + (right - left) // 2
+            pivot = (left + right)//2
             num = reader.get(pivot)
             if num == target:
                 return pivot
