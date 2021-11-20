@@ -7,7 +7,7 @@ class Solution:
         if nums[right] > nums[0]:
             return nums[0]
         while right >= left:
-            mid = left + (right - left) // 2
+            mid = (left + right) // 2
             if nums[mid] > nums[mid + 1]:
                 return nums[mid + 1]
             if nums[mid - 1] > nums[mid]:
@@ -16,3 +16,4 @@ class Solution:
                 left = mid + 1
             else:
                 right = mid - 1
+        
