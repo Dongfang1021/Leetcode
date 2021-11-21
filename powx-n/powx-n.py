@@ -13,5 +13,4 @@ class Solution:
             return a**2
         else:
             return x*(a**2)
-
         
