@@ -1,5 +1,13 @@
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
-        index = bisect.bisect(letters, target)
-        return letters[index % len(letters)]
+        if letters[0] > target or letters[-1] <= target:
+            return letters[0]
+        left, right = 0, len(letters) - 1
+        while left <= right:
+            pivot = (left + right) // 2
+            if letters[pivot] > target:
+                right = pivot - 1
+            else:
+                left = pivot + 1
+        return letters[left]
         
