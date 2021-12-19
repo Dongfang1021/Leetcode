@@ -9,5 +9,4 @@ class Solution:
                 left = pivot + 1
             else:
                 right = pivot - 1
-                
         return -1
