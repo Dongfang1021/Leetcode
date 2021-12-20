@@ -7,23 +7,21 @@ class Solution:
         return [lower_bound, upper_bound]
     
     def findBound(self, nums, target, isFirst):
-        N = len(nums)
-        begin, end = 0, N - 1
-        while begin <= end:
-            mid = int((begin + end)/2)
-            if nums[mid] == target:
+        left, right = 0, len(nums) - 1
+        while left <= right:
+            pivot = (left + right) // 2
+            if nums[pivot] == target:
                 if isFirst:
-                    if mid == begin or nums[mid - 1] < target:
-                        return mid
-                    end = mid - 1
+                    if pivot == left or nums[pivot - 1] < target:
+                        return pivot
+                    right = pivot - 1
                 else:
-                    if mid == end or nums[mid + 1] > target:
-                        return mid
-                    begin = mid + 1
-            elif nums[mid] > target:
-                end = mid - 1
+                    if pivot == right or nums[pivot + 1] > target:
+                        return pivot
+                    left = pivot + 1
+            elif nums[pivot] > target:
+                right = pivot - 1
             else:
-                begin = mid + 1
+                left = pivot + 1
         return -1
-                
         
