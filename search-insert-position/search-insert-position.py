@@ -5,7 +5,7 @@ class Solution:
             pivot = (left + right) // 2
             if nums[pivot] == target:
                 return pivot
-            if target < nums[pivot]:
+            if nums[pivot] > target:
                 right = pivot - 1
             else:
                 left = pivot + 1
