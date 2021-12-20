@@ -9,16 +9,15 @@ class Solution:
             return None
         else:
             totalNoOfNodes = self.findTotalNoOfNodes(head)
-            print(totalNoOfNodes)
             if n == totalNoOfNodes:
                 x = head
                 head = x.next
-                del x
+                del x 
                 return head
             index = totalNoOfNodes - n
             self.deleteNodeAfterIndex(head, index, n)
             return head
-    
+        
     def deleteNodeAfterIndex(self, head, index, n):
         if n is 1:
             current = head
@@ -42,12 +41,12 @@ class Solution:
             current.next = x
             del y
             return head
-        
+    
     def findTotalNoOfNodes(self, head):
         count = 0
         current = head
         while current is not None:
             count += 1
             current = current.next
-        return count
-        
+        return count 
+    
