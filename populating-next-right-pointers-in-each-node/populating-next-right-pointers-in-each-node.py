@@ -12,7 +12,6 @@ class Solution:
     def connect(self, root: 'Node') -> 'Node':
         if not root:
             return root
-        
         Q = collections.deque([root])
         while Q:
             size = len(Q)
