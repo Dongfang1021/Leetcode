@@ -4,7 +4,7 @@ class Solution:
         if m == 0:
             return False
         n = len(matrix[0])
-        left, right = 0, m*n - 1
+        left, right = 0, m*n -1
         while left <= right:
             pivot_idx = (left + right) // 2
             pivot_element = matrix[pivot_idx//n][pivot_idx%n]
@@ -16,6 +16,6 @@ class Solution:
                 else:
                     left = pivot_idx + 1
         return False
-                    
+        
         
         
