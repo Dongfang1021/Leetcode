@@ -9,10 +9,9 @@ class Solution:
                     queue.append((r, c))
                 elif grid[r][c] == 1:
                     fresh_oranges += 1
-        
         queue.append((-1, -1))
         minutes_elapsed = -1
-        directions = [(-1, 0), (0,1), (1, 0), (0, -1)]
+        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
         while queue:
             row, col = queue.popleft()
             if row == -1:
@@ -27,6 +26,6 @@ class Solution:
                             grid[neighbor_row][neighbor_col] = 2
                             fresh_oranges -= 1
                             queue.append((neighbor_row, neighbor_col))
-                            
         return minutes_elapsed if fresh_oranges == 0 else -1
+        
             
