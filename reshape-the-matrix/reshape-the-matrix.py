@@ -5,4 +5,5 @@ class Solution:
             return [A[i*c:(i+1)*c] for i in range(r)]
         else:
             return mat
+
         
