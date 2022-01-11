@@ -9,19 +9,19 @@ class Solution:
                 self.twosumII(nums, i, res)
         return res
     
-    def twosumII(self, nums: List[int], i: int, res: List[list[int]]):
-        lo = i + 1
-        hi = len(nums) - 1
-        while (lo < hi):
-            sum = nums[i] + nums[lo] + nums[hi]
+    def twosumII(self,nums, i, res):
+        left = i + 1
+        right = len(nums) - 1
+        while left < right:
+            sum = nums[i] + nums[left] + nums[right]
             if sum < 0:
-                lo += 1
+                left += 1
             elif sum > 0:
-                hi -= 1
+                right -= 1
             else:
-                res.append([nums[i], nums[lo], nums[hi]])
-                lo += 1
-                hi -= 1
-                while lo < hi and nums[lo] == nums[lo - 1]:
-                    lo += 1
+                res.append([nums[i], nums[left], nums[right]])
+                left += 1
+                right -= 1
+                while left < right and nums[left] == nums[left - 1]:
+                    left += 1
             
