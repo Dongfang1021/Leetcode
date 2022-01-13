@@ -1,7 +1,7 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         lower_bound = self.findBound(nums, target, True)
-        if (lower_bound == -1):
+        if lower_bound == -1:
             return [-1, -1]
         upper_bound = self.findBound(nums, target, False)
         return [lower_bound, upper_bound]
@@ -24,4 +24,5 @@ class Solution:
             else:
                 left = pivot + 1
         return -1
+
         
