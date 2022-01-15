@@ -9,7 +9,7 @@ class Solution:
                 self.twosumII(nums, i, res)
         return res
     
-    def twosumII(self,nums, i, res):
+    def twosumII(self, nums, i, res):
         left = i + 1
         right = len(nums) - 1
         while left < right:
