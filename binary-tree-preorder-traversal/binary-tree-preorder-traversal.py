@@ -8,7 +8,7 @@ class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if root is None:
             return []
-        stack, output = [root, ], []
+        stack, output = [root,], []
         while stack:
             root = stack.pop()
             if root is not None:
@@ -18,3 +18,6 @@ class Solution:
                 if root.left is not None:
                     stack.append(root.left)
         return output
+        
+
+        
